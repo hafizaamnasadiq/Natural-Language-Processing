@@ -1,6 +1,6 @@
 # Natural-Language-Processing
 
-# Confusion Metrics Calculator 📊
+# Confusion Metrics Calculator 📊 (evalMet.py)
 
 This project implements a simple **Confusion Matrix-based evaluation tool** from scratch in Python.  
 It computes key classification metrics such as Accuracy, Precision, Recall, and F1-score.
@@ -18,7 +18,7 @@ It computes key classification metrics such as Accuracy, Precision, Recall, and 
 - Handles edge cases (division by zero)
 - Includes multiple test cases for validation
 
-- # Naive Bayes Python Implementation
+- # Naive Bayes Python Implementation(naive_bayes.py)
   Kaggle link for dataset : https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews?resource=download
 -Developed a Multinomial Naive Bayes classifier using only standard Python, adhering to the "no machine learning libraries" constraint.  
 -IMDB Sentiment Task: Adapted the code to classify movie reviews by mapping sentiments to binary labels for statistical analysis. 
@@ -26,7 +26,7 @@ It computes key classification metrics such as Accuracy, Precision, Recall, and 
 -Numerical Stability: Utilized log-probability summation to prevent floating-point underflow in long text documents.  
 -Integrated Evaluation: Reused a custom ConfusionMetrics class to calculate accuracy, precision, recall, and F1 scores.
 
-# Perceptron Text Classification
+# Perceptron Text Classification(classifier.py)
 
 This project implements a simple Perceptron-based machine learning model for binary text classification (e.g., spam vs normal or sentiment analysis). It also includes a custom evaluation module for measuring performance.
 ## 📌 Features
