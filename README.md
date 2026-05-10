@@ -37,8 +37,8 @@ Perceptron learning algorithm (online updates)
 Text classification (spam / normal)
 Dataset-based testing
 Custom evaluation metrics:
-Accuracy
-Precision
-Recall
-F1 Score
+  - Accuracy
+  - Precision
+  - Recall
+  - F1 Score
 
