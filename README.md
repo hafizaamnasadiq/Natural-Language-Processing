@@ -26,3 +26,19 @@ It computes key classification metrics such as Accuracy, Precision, Recall, and 
 -Numerical Stability: Utilized log-probability summation to prevent floating-point underflow in long text documents.  
 -Integrated Evaluation: Reused a custom ConfusionMetrics class to calculate accuracy, precision, recall, and F1 scores.
 
+# Perceptron Text Classification
+
+This project implements a simple Perceptron-based machine learning model for binary text classification (e.g., spam vs normal or sentiment analysis). It also includes a custom evaluation module for measuring performance.
+## 📌 Features
+Tokenization of text
+Vocabulary building from training data
+Binary vector representation (bag-of-words style)
+Perceptron learning algorithm (online updates)
+Text classification (spam / normal)
+Dataset-based testing
+Custom evaluation metrics:
+Accuracy
+Precision
+Recall
+F1 Score
+
